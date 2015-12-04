@@ -1,6 +1,5 @@
 <html ng-app="github" >
 	<head>
-		<title>Git Hub Api</title>
 		<script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -63,7 +62,7 @@
 				                 			</br>
 				               				<a ng-href="https://github.com/{{item.login}}" target="_blank">Profile </a> 
 				               				<span>&nbsp;| &nbsp;</span>
-				                			<a ng-href="{{item.html_url}}" target="_blank">Repos</a>
+				                			<a ng-href="{{item.html_url}}?tab=repositories" target="_blank">Repos</a>
 				           			 </div>
 				      			  </div>
 				   		 </div>
