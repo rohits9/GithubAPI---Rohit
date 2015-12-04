@@ -65,7 +65,12 @@ sidenav {
     	float:left;
     	margin-left:30px;
     }
-    
+    .fixWidth{
+    	min-width: 1040px;
+    }
+    .inner-page{
+    	background-color:#fff;
+    }
  /* Set black background color, white text and some padding */
 footer {
       	background-color: #555;
